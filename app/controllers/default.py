@@ -12,6 +12,7 @@ def load_user(id):
     return User.query.filter_by(id=id).first()
 
 
+
 @app.route("/index")
 @app.route("/")
 def index():
